@@ -1,0 +1,520 @@
+{
+  "dados_composicoes": {
+    "dados_orcamentos": {
+      "Duplicado_ORCA_4e0eb7d0-8736-410b-be8c-d34a3fc7d742": {
+        "dados_composicoes": [
+          {
+            "codigo": "gcs-372",
+            "custo": "R$ 5,00",
+            "descricao": "PATCH CORD VERMELHO UTP 5E 3MT",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 5,00"
+          },
+          {
+            "codigo": "gcs-373",
+            "custo": "R$ 2,10",
+            "descricao": "MÃO DE OBRA PARA PASSAGEM DE CABO",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "MT",
+            "qtde": "15",
+            "tipo": "SERVIÇO",
+            "total": "R$ 31,50"
+          },
+          {
+            "codigo": "gcs-220",
+            "custo": "R$ 2,62",
+            "descricao": "CABO DE REDE CAT. 5E 24AWGX4P - AZUL FURUKAWA SOHOPLUS / NEXANS CX 305MT",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "MT",
+            "qtde": "15",
+            "tipo": "SERVIÇO",
+            "total": "R$ 39,30"
+          },
+          {
+            "codigo": "gcs-375",
+            "custo": "R$ 70,00",
+            "descricao": "CONFIGURAÇÃO CÂMERA",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 70,00"
+          },
+          {
+            "codigo": "gcs-316",
+            "custo": "R$ 75,00",
+            "descricao": "INSTALAÇÃO DE CÂMERA FIXA",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 75,00"
+          },
+          {
+            "codigo": "gcs-492",
+            "custo": "R$ 1,20",
+            "descricao": "FORNECIMENTO DE CONECTOR MACHO RJ45",
+            "imagem": "https://i.imgur.com/oljZBOB.png",
+            "medida": "UND",
+            "qtde": "4",
+            "tipo": "SERVIÇO",
+            "total": "R$ 4,80"
+          },
+          {
+            "codigo": "gcs-312",
+            "custo": "R$ 150,00",
+            "descricao": "INSTALAÇÃO DE NVR 04,08, 16 E 32 CANAIS",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 150,00"
+          },
+          {
+            "codigo": "gcs-319",
+            "custo": "R$ 35,00",
+            "descricao": "INSTALAÇÃO DE HD 2TB, 4TB, 6TB E 8TB",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 35,00"
+          },
+          {
+            "codigo": "gcs-354",
+            "custo": "R$ 30,00",
+            "descricao": "INSTALAÇÃO SIRENE",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 30,00"
+          },
+          {
+            "codigo": "gcs-352",
+            "custo": "R$ 40,00",
+            "descricao": "INSTALAÇÃO SENSOR INFRA VERMELHO (DIVERSOS)",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "SERVIÇO",
+            "total": "R$ 80,00"
+          },
+          {
+            "codigo": "gcs-350",
+            "custo": "R$ 50,00",
+            "descricao": "INSTALAÇÃO SENSOR DE PORTA",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "SERVIÇO",
+            "total": "R$ 100,00"
+          },
+          {
+            "codigo": "gcs-346",
+            "custo": "R$ 80,00",
+            "descricao": "INSTALAÇÃO CENTRAL DE ALARME COM TECLADO",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 80,00"
+          },
+          {
+            "codigo": "gcs-150",
+            "custo": "R$ 729,00",
+            "descricao": "CENTRAL DE ALARME",
+            "imagem": "https://i.imgur.com/K1zEOFw.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 729,00"
+          },
+          {
+            "codigo": "gcs-183",
+            "custo": "R$ 115,21",
+            "descricao": "SENSOR MAGNETICO LEVE S FIO",
+            "imagem": "https://i.imgur.com/VcmQLg1.jpeg",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "VENDA",
+            "total": "R$ 230,42"
+          },
+          {
+            "codigo": "gcs-180",
+            "custo": "R$ 165,00",
+            "descricao": "SENSOR IVP PET S FIO",
+            "imagem": "https://i.imgur.com/mo6146u.png",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "VENDA",
+            "total": "R$ 330,00"
+          },
+          {
+            "codigo": "gcs-152",
+            "custo": "R$ 324,06",
+            "descricao": "TECLADO LCD",
+            "imagem": "https://i.imgur.com/7ppDOlC.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 324,06"
+          },
+          {
+            "codigo": "gcs-117",
+            "custo": "R$ 105,60",
+            "descricao": "REGUA DE 8 TOMADAS PARA RACK 20A",
+            "imagem": "https://i.imgur.com/nqBYFe2.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 105,60"
+          },
+          {
+            "codigo": "gcs-122",
+            "custo": "R$ 24,00",
+            "descricao": "FONTE 12V/1A",
+            "imagem": "https://i.imgur.com/P4Ke1Eb.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 24,00"
+          },
+          {
+            "codigo": "gcs-521",
+            "custo": "R$ 106,07",
+            "descricao": "CAIXA DE JUNCAO PARA CÂMERA BULLET DOME FISHEYE - 1.0.02.08.12455 - DH-PFA130-E - DAHUA",
+            "imagem": "https://i.imgur.com/3Sn1iAK.png",
+            "medida": "PC",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 106,07"
+          },
+          {
+            "codigo": "gcs-544",
+            "custo": "R$ 2.283,02",
+            "descricao": "CÂMERA IP FISHEYE 5MP IR10M SDCARD MIC INTEGRADO- 1.0.01.04.33908 - DH-IPC-EW5541N-AS(2) - DAHUA",
+            "imagem": "https://i.imgur.com/9SnmiEP.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 2.283,02"
+          },
+          {
+            "codigo": "gcs-678",
+            "custo": "R$ 600,00",
+            "descricao": "SUPORTE DE INOX SOB MEDIDA",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 600,00"
+          },
+          {
+            "codigo": "gcs-680",
+            "custo": "R$ 59,07",
+            "descricao": "SIRENE AUDIOVISUAL",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 59,07"
+          },
+          {
+            "codigo": "gcs-674",
+            "custo": "R$ 1.975,15",
+            "descricao": "NVR 4 CANAIS POE 1 SATA H.265+ WIZSENSE - - 1.0.01.23.13948-0018 - DHI-NVR2104-P-I2 - DAHUA",
+            "imagem": "https://i.imgur.com/Y0699mt.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 1.975,15"
+          },
+          {
+            "codigo": "gcs-45",
+            "custo": "R$ 1.614,00",
+            "descricao": "DISCO RÍGIDO 6TB",
+            "imagem": "https://i.imgur.com/056NA4D.png",
+            "medida": "UN",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 1.614,00"
+          }
+        ],
+        "dados_orcam": {
+          "analista": "Amanda Barreto Silva",
+          "aux_estado": "Bahia",
+          "bairro": "",
+          "cep": "",
+          "cidade": "",
+          "cliente_selecionado": "GRUPO BOTICÁRIO",
+          "cnpj": "0001",
+          "condicoes": "A definir",
+          "consideracoes": "A proposta contempla a INFRAESTRUTURA + PASSAGEM DE CABO + INSTALAÇÃO DE 01 CENTRAL DE ALARME S/ FIO + 02 SENSOR MAGNÉTICO S/ FIO + 02 SENSORES IVP S/FIO + 01 TECLADO S/ FIO + 01 CÂMERA FISHEYE + 01 HD + 01 NVR\n\n",
+          "contrato": "D CENÁRIO 02 OPÇÃO 01 30/09/2024",
+          "data": "2024-10-01T19:25:30.962Z",
+          "email_analista": "barreto.amanda@hopent.com.br",
+          "email_vendedor": "comercial@acsolucoesintegradas.com.br",
+          "estado": "BA",
+          "garantia": "1 ano",
+          "telefone_analista": "(71) 98240-4695",
+          "telefone_vendedor": "(71) 3901-3655",
+          "tipo_de_frete": "--",
+          "vendedor": "GRUPO COSTA SILVA"
+        },
+        "id": "Duplicado_ORCA_4e0eb7d0-8736-410b-be8c-d34a3fc7d742",
+        "lpu_ativa": "LPU HOPE",
+        "tabela": "orcamentos",
+        "total_geral": "R$ 9.080,99"
+      },
+      "ORCA_4e0eb7d0-8736-410b-be8c-d34a3fc7d742": {
+        "dados_composicoes": [
+          {
+            "codigo": "gcs-372",
+            "custo": "R$ 5,00",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 5,00"
+          },
+          {
+            "codigo": "gcs-373",
+            "custo": "R$ 2,10",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "MT",
+            "qtde": "15",
+            "tipo": "SERVIÇO",
+            "total": "R$ 31,50"
+          },
+          {
+            "codigo": "gcs-220",
+            "custo": "R$ 2,62",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "MT",
+            "qtde": "15",
+            "tipo": "SERVIÇO",
+            "total": "R$ 39,30"
+          },
+          {
+            "codigo": "gcs-375",
+            "custo": "R$ 70,00",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 70,00"
+          },
+          {
+            "codigo": "gcs-316",
+            "custo": "R$ 75,00",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 75,00"
+          },
+          {
+            "codigo": "gcs-492",
+            "custo": "R$ 1,20",
+            "imagem": "https://i.imgur.com/oljZBOB.png",
+            "medida": "UND",
+            "qtde": "4",
+            "tipo": "SERVIÇO",
+            "total": "R$ 4,80"
+          },
+          {
+            "codigo": "gcs-312",
+            "custo": "R$ 150,00",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 150,00"
+          },
+          {
+            "codigo": "gcs-319",
+            "custo": "R$ 35,00",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 35,00"
+          },
+          {
+            "codigo": "gcs-354",
+            "custo": "R$ 30,00",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 30,00"
+          },
+          {
+            "codigo": "gcs-352",
+            "custo": "R$ 40,00",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "SERVIÇO",
+            "total": "R$ 80,00"
+          },
+          {
+            "codigo": "gcs-350",
+            "custo": "R$ 50,00",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "SERVIÇO",
+            "total": "R$ 100,00"
+          },
+          {
+            "codigo": "gcs-346",
+            "custo": "R$ 80,00",
+            "imagem": "https://i.imgur.com/QsHCvaO.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "SERVIÇO",
+            "total": "R$ 80,00"
+          },
+          {
+            "codigo": "gcs-150",
+            "custo": "R$ 729,00",
+            "imagem": "https://i.imgur.com/K1zEOFw.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 729,00"
+          },
+          {
+            "codigo": "gcs-183",
+            "custo": "R$ 115,21",
+            "imagem": "https://i.imgur.com/VcmQLg1.jpeg",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "VENDA",
+            "total": "R$ 230,42"
+          },
+          {
+            "codigo": "gcs-180",
+            "custo": "R$ 165,00",
+            "imagem": "https://i.imgur.com/mo6146u.png",
+            "medida": "",
+            "qtde": "2",
+            "tipo": "VENDA",
+            "total": "R$ 330,00"
+          },
+          {
+            "codigo": "gcs-152",
+            "custo": "R$ 324,06",
+            "imagem": "https://i.imgur.com/7ppDOlC.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 324,06"
+          },
+          {
+            "codigo": "gcs-117",
+            "custo": "R$ 105,60",
+            "imagem": "https://i.imgur.com/nqBYFe2.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 105,60"
+          },
+          {
+            "codigo": "gcs-122",
+            "custo": "R$ 24,00",
+            "imagem": "https://i.imgur.com/P4Ke1Eb.png",
+            "medida": "",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 24,00"
+          },
+          {
+            "codigo": "gcs-521",
+            "custo": "R$ 106,07",
+            "imagem": "https://i.imgur.com/3Sn1iAK.png",
+            "medida": "PC",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 106,07"
+          },
+          {
+            "codigo": "gcs-544",
+            "custo": "R$ 2.283,02",
+            "imagem": "https://i.imgur.com/9SnmiEP.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 2.283,02"
+          },
+          {
+            "codigo": "gcs-678",
+            "custo": "R$ 600,00",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 600,00"
+          },
+          {
+            "codigo": "gcs-680",
+            "custo": "R$ 59,07",
+            "imagem": "https://i.imgur.com/Nb8sPs0.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 59,07"
+          },
+          {
+            "codigo": "gcs-674",
+            "custo": "R$ 1.975,15",
+            "imagem": "https://i.imgur.com/Y0699mt.png",
+            "medida": "UND",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 1.975,15"
+          },
+          {
+            "codigo": "gcs-45",
+            "custo": "R$ 1.614,00",
+            "imagem": "https://i.imgur.com/056NA4D.png",
+            "medida": "UN",
+            "qtde": "1",
+            "tipo": "VENDA",
+            "total": "R$ 1.614,00"
+          }
+        ],
+        "dados_orcam": {
+          "analista": "Amanda Barreto Silva",
+          "aux_estado": "Bahia",
+          "bairro": "",
+          "cep": "",
+          "cidade": "",
+          "cliente_selecionado": "GRUPO BOTICÁRIO",
+          "cnpj": "0001",
+          "condicoes": "A definir",
+          "consideracoes": "A proposta contempla a INFRAESTRUTURA + PASSAGEM DE CABO + INSTALAÇÃO DE 01 CENTRAL DE ALARME S/ FIO + 02 SENSOR MAGNÉTICO S/ FIO + 02 SENSORES IVP S/FIO + 01 TECLADO S/ FIO + 01 CÂMERA FISHEYE + 01 HD + 01 NVR\n\n",
+          "contrato": "D CENÁRIO 02 OPÇÃO 01 30/09/2024",
+          "data": "2024-10-01T19:25:30.962Z",
+          "email_analista": "barreto.amanda@hopent.com.br",
+          "email_vendedor": "comercial@acsolucoesintegradas.com.br",
+          "estado": "BA",
+          "garantia": "1 ano",
+          "telefone_analista": "(71) 98240-4695",
+          "telefone_vendedor": "(71) 3901-3655",
+          "tipo_de_frete": "--",
+          "vendedor": "GRUPO COSTA SILVA"
+        },
+        "id": "ORCA_4e0eb7d0-8736-410b-be8c-d34a3fc7d742",
+        "lpu_ativa": "LPU HOPE",
+        "tabela": "orcamentos",
+        "total_geral": "R$ 9.080,99"
+      }
+    }
+  }
+}
