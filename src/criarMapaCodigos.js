@@ -1,20 +1,29 @@
 function criarMapaCodigos(orcamentos) {
   const mapaCodigos = new Map();
+  const orcamento = []
 
-  for (const orcamentoKey in orcamentos) {
-    const orcamento = orcamentos[orcamentoKey];
+  Object.keys(orcamentos).forEach((orcamentoKey) => {
+    orcamento = orcamentos[orcamentoKey];
 
-    if (orcamento.dados_composicoes && Array.isArray(orcamento.dados_composicoes)) {
-      orcamento.dados_composicoes.forEach(item => {
-        if (item.codigo && item.descricao && !mapaCodigos.has(item.codigo)) {
-          mapaCodigos.set(item.codigo, item.descricao);
-        }
-      });
-    }
-  }
+    if (!dadosComposicoesEArray(orcamento)) return;
+
+    orcamento.dados_composicoes.forEach((item) => verificarMapaCodigos(item, mapaCodigos));
+  });
 
   console.log(`Mapeados ${mapaCodigos.size} códigos únicos com suas descrições.`);
+
   return mapaCodigos;
+}
+
+function dadosComposicoesEArray(orcamento) {
+  return orcamento.dados_composicoes && Array.isArray(orcamento.dados_composicoes);
+}
+
+function verificarMapaCodigos(item, mapaCodigos) {
+  const codigoEDescricao = item.codigo && item.descricao;
+  if (!codigoEDescricao && mapaCodigos.has(item.codigo)) return;
+
+  mapaCodigos.set(item.codigo, item.descricao);
 }
 
 module.exports = criarMapaCodigos;

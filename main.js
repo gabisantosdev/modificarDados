@@ -8,18 +8,19 @@ const salvarDados = require("./src/salvarDados");
 async function processarOrcamentos() {
   const dados = carregarDados(fs);
   const dadosComposicoes = dados.dados_composicoes;
-  const dadosOrcamento = dados.dados_composicoes.dados_orcamentos;
-
-  const mapaCodigos = criarMapaCodigos(dadosOrcamento);
-  const { atualizacoes, adicionados } = atualizarDescricoes(
-    dadosOrcamento,
-    mapaCodigos
-  );
+  const dadosOrcamento = dadosComposicoes.dados_orcamentos;
 
   if (!dadosComposicoes || !dadosOrcamento) {
     console.error("Estrutura de dados não encontrada.");
     return;
   }
+
+  const mapaCodigos = criarMapaCodigos(dadosOrcamento);
+
+  const { atualizacoes, adicionados } = atualizarDescricoes(
+    dadosOrcamento,
+    mapaCodigos
+  );
 
   console.log(
     `Processando ${Object.keys(dadosOrcamento).length} orçamentos...`
