@@ -6,25 +6,30 @@ const exibirResumo = require("./src/exibirResumo");
 const salvarDados = require("./src/salvarDados");
 
 async function processarOrcamentos() {
-  const dados = carregarDados(fs);
+  const dados = await carregarDados(fs);
   const dadosComposicoes = dados.dados_composicoes;
   const dadosOrcamento = dadosComposicoes.dados_orcamentos;
 
   if (!dadosComposicoes || !dadosOrcamento) {
-    console.error("Estrutura de dados não encontrada.");
+    console.error("Dados ausentes.");
+
+    try {
+      console.log("Tentando carregar os dados novamente...");
+      await carregarDados(fs);
+    } catch (err) {
+      console.error(`Erro ao carregar os dados novamente: ${err}`);
+      console.log("Encerrando o script.");
+    }
+
     return;
   }
 
   const mapaCodigos = criarMapaCodigos(dadosOrcamento);
 
-  const { atualizacoes, adicionados } = atualizarDescricoes(
-    dadosOrcamento,
-    mapaCodigos
-  );
+  const { atualizacoes, adicionados } = atualizarDescricoes(dadosOrcamento, mapaCodigos);
 
-  console.log(
-    `Processando ${Object.keys(dadosOrcamento).length} orçamentos...`
-  );
+  const quantidadeDadosOrcamento = Object.keys(dadosOrcamento).length;
+  console.log(`Processando ${quantidadeDadosOrcamento} orçamentos...`);
 
   exibirResumo(atualizacoes, adicionados, mapaCodigos.size);
 
@@ -34,4 +39,4 @@ async function processarOrcamentos() {
 console.log("Iniciando processamento...");
 processarOrcamentos()
   .then(() => console.log("Processamento concluído!"))
-  .catch((erro) => console.error("Erro durante o processamento:", erro));
+  .catch((erro) => console.error(`Erro durante o processamento: ${erro}`));
