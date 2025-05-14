@@ -1,6 +1,6 @@
 function criarMapaCodigos(orcamentos) {
   const mapaCodigos = new Map();
-  const orcamento = []
+  const orcamento = [];
 
   Object.keys(orcamentos).forEach((orcamentoKey) => {
     orcamento = orcamentos[orcamentoKey];
